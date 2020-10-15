@@ -1,0 +1,29 @@
+{
+
+  "estatementEndpoint": "api/statement",
+
+  "freezeEndpoint": "api/account/freeze",
+  "accountLienEndpoint": "api/account/lien",
+  "accountStatus": "api/account/reactivate",
+  "accountUpdate": "api/account/update",
+  "accountKYC": "api/account/kyc",
+  "accountBVN": "api/account/bvn",
+  "accountBalanceEnquiry": "api/account/balance-eqry",
+  "accountReversalCheck": "api/account/reversal-chk",
+
+  "firstAdvanceEndpoint": "api/digital-loans/firstAdvance",
+
+  "validateToken": "api/token/validate",
+
+  "logCRM":"api/log-case",
+  "checkCaseStatus":"api/case/status",
+
+  "profectusTopUpEndpoint": "api/profectus/status/topup",
+  "profectusBillEndpoint": "api/profectus/status/bill",
+  "profectusFIPEndpoint": "api/profectus/status/fip",
+  "profectusSMTNEndpoint":"api/profectus/smtn",
+
+  "statusEnquiry": "api/status/enquiry",
+  "unlockEndpoint":"api/token/unlock",
+  "blockEndpoint":"api/token/block"
+}

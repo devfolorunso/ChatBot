@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>iisnode logs</title>
+    <style type="text/css">
+        body
+        {
+            font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+        }
+        table
+        {
+            border-collapse: collapse;
+        }
+        td, th
+        {
+            border: 1px solid lightgray;
+            padding: 3px 7px 2px 7px;
+        }
+        th
+        {
+            text-align: left;
+            padding-top: 5px;
+            padding-bottom: 4px;
+            background-color: Gray;
+            color: #ffffff;
+        }
+        td.stderr
+        {
+            color: Red;
+        }
+    </style>
+</head>
+<body>
+    <table id="logFilesTable">
+        <tr>
+            <th>
+                Computer name
+            </th>
+            <th>
+                PID
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Created
+            </th>
+            <th>
+                Link
+            </th>
+        </tr>
+    </table>
+    <p id="lastUpdated"></p>
+    <script type="text/javascript">
+
+        // this is replaced with actual data at runtime by code in interceptor.js
+        var logFiles = [{"file":"firstcontact-vm-12064-stderr-1602671219041.txt","computername":"firstcontact-vm","pid":12064,"type":"stderr","created":1602671219041},{"file":"firstcontact-vm-12064-stdout-1602671219037.txt","computername":"firstcontact-vm","pid":12064,"type":"stdout","created":1602671219037},{"file":"firstcontact-vm-12152-stderr-1602612312865.txt","computername":"firstcontact-vm","pid":12152,"type":"stderr","created":1602612312865},{"file":"firstcontact-vm-12152-stdout-1602612312862.txt","computername":"firstcontact-vm","pid":12152,"type":"stdout","created":1602612312862},{"file":"firstcontact-vm-12564-stderr-1602670893981.txt","computername":"firstcontact-vm","pid":12564,"type":"stderr","created":1602670893981},{"file":"firstcontact-vm-12564-stdout-1602670893977.txt","computername":"firstcontact-vm","pid":12564,"type":"stdout","created":1602670893977},{"file":"firstcontact-vm-13772-stderr-1602612853018.txt","computername":"firstcontact-vm","pid":13772,"type":"stderr","created":1602612853018},{"file":"firstcontact-vm-13772-stdout-1602612853014.txt","computername":"firstcontact-vm","pid":13772,"type":"stdout","created":1602612853014},{"file":"firstcontact-vm-14316-stderr-1602612748088.txt","computername":"firstcontact-vm","pid":14316,"type":"stderr","created":1602612748088},{"file":"firstcontact-vm-14316-stdout-1602612748083.txt","computername":"firstcontact-vm","pid":14316,"type":"stdout","created":1602612748083},{"file":"firstcontact-vm-15084-stderr-1602613125246.txt","computername":"firstcontact-vm","pid":15084,"type":"stderr","created":1602613125246},{"file":"firstcontact-vm-15084-stdout-1602613125240.txt","computername":"firstcontact-vm","pid":15084,"type":"stdout","created":1602613125240},{"file":"firstcontact-vm-16760-stderr-1602671262967.txt","computername":"firstcontact-vm","pid":16760,"type":"stderr","created":1602671262967},{"file":"firstcontact-vm-16760-stdout-1602671262962.txt","computername":"firstcontact-vm","pid":16760,"type":"stdout","created":1602671262962},{"file":"firstcontact-vm-17612-stderr-1602671684754.txt","computername":"firstcontact-vm","pid":17612,"type":"stderr","created":1602671684754},{"file":"firstcontact-vm-17612-stdout-1602671684749.txt","computername":"firstcontact-vm","pid":17612,"type":"stdout","created":1602671684749},{"file":"firstcontact-vm-18880-stderr-1602611868622.txt","computername":"firstcontact-vm","pid":18880,"type":"stderr","created":1602611868622},{"file":"firstcontact-vm-18880-stdout-1602611868618.txt","computername":"firstcontact-vm","pid":18880,"type":"stdout","created":1602611868618},{"file":"firstcontact-vm-20444-stderr-1602671353754.txt","computername":"firstcontact-vm","pid":20444,"type":"stderr","created":1602671353754},{"file":"firstcontact-vm-20444-stdout-1602671353751.txt","computername":"firstcontact-vm","pid":20444,"type":"stdout","created":1602671353751},{"file":"firstcontact-vm-5808-stderr-1602611953015.txt","computername":"firstcontact-vm","pid":5808,"type":"stderr","created":1602611953015},{"file":"firstcontact-vm-5808-stdout-1602611953010.txt","computername":"firstcontact-vm","pid":5808,"type":"stdout","created":1602611953010}];
+        var lastUpdated = 1602671686382;
+        var date = new Date();
+
+        date.setTime(lastUpdated);
+        document.getElementById('lastUpdated').innerHTML = 'Index was last updated ' + date;
+
+        logFiles.sort(function (a, b) {
+            return b.created - a.created;
+        });
+
+        var logFilesTable = document.getElementById("logFilesTable");
+        for (var i = 0; i < logFiles.length; i++) {
+            var logFile = logFiles[i];
+            date.setTime(logFile.created);
+            var row = logFilesTable.insertRow(-1);
+            var computerNameCell = row.insertCell(0);
+            var pidCell = row.insertCell(1);
+            var typeCell = row.insertCell(2);
+            var dateCell = row.insertCell(3);
+            var logCell = row.insertCell(4);
+            computerNameCell.innerHTML = logFile.computername;
+            pidCell.innerHTML = logFile.pid.toString();
+            typeCell.innerHTML = logFile.type;
+            typeCell.setAttribute('class', logFile.type);
+            dateCell.innerHTML = date.toString();
+            logCell.innerHTML = '<a href="' + logFile.file + '">log</a>';
+        };
+
+    </script>
+</body>
+</html>

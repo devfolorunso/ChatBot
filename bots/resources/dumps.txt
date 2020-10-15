@@ -1,0 +1,52 @@
+
+ {
+                            "type": "Action.ShowCard",
+                            "title": "Query SMTM",
+                            "card": {
+                                "type": "AdaptiveCard",
+                                "body": [
+
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "Account Number"
+                                    },
+                                    {
+                                        "type": "Input.Text",
+                                        "required": true,
+                                        "id": "querysmtm_acc_number",
+                                        "placeholder": "Account number"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "Full Card PAN"
+                                    },
+                                    {
+                                        "type": "Input.Text",
+                                        "id": "querysmtm_masked_pan",
+                                        "required": true,
+                                        "placeholder": "Full Card PAN"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "Remark 2"
+                                    },
+                                    {
+                                        "type": "Input.Text",
+                                        "id": "querysmtm_stan",
+                                        "required": "true",
+                                        "placeholder": "Remark 2",
+                                        "maxLength": 6
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "Action.Submit",
+                                        "title": "Query SMTM",
+                                        "data": {
+                                            "Activity": "QuerySMTM_Profectus"
+                                        }
+                                    }
+                                ],
+                                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+                            }
+                        },

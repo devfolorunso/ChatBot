@@ -1,0 +1,1741 @@
+http://169.254.0.1:0000
+
+restify listening to http://undefined:undefined 
+
+Get Bot Framework Emulator: https://aka.ms/botframework-emulator
+
+To talk to your bot, open the emulator select "Open Bot"
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token undefined
+User is undefined
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token undefined
+User is undefined
+https://chatbotmiddleware.firstbanknigeria.com/Middleware/
+Token Res { code: '00', message: 'Success', otherMessage: 'isTeamLead' }
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Profectus data {
+  Activity: 'profectus',
+  ProfectusType: 'profectus_FIP',
+  profectus_fip_type: 'INWARD',
+  profectus_fip_sessionid: '033011121024103436003000889176',
+  profectus_fip_amount: '0',
+  profectus_fip_account_num: '',
+  profectus_fip_sendreceipt: 'true',
+  InitiatorEmail: 'mayowa@dipolediamond.com'
+}
+Profectus Type is:profectus_FIP
+Send Receipt is true
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    'transfer-encoding': 'chunked',
+    'content-type': 'application/json; charset=utf-8',
+    server: 'Microsoft-IIS/10.0',
+    'x-powered-by': 'ASP.NET',
+    date: 'Wed, 14 Oct 2020 10:35:30 GMT',
+    connection: 'close'
+  },
+  config: {
+    url: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+    method: 'post',
+    data: '{"Amount":"0","AccountNumber":"","SessionId":"033011121024103436003000889176","RequestType":"Profectus - FIP Transfer Status","InitiatorEmail":"mayowa@dipolediamond.com","FIPType":"INWARD","SendReceipt":true}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      EmailAddress: 'mayowa@dipolediamond.com',
+      RequestType: 'Profectus - FIP Transfer Status',
+      LogCaseType: 'Not Available',
+      FIPType: 'INWARD',
+      IpAddress: '10.163.10.10',
+      MacAddress: '00:0d:3a:2c:98:ad',
+      'User-Agent': 'axios/0.19.2',
+      'Content-Length': 208
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    httpsAgent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    }
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 516,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 516,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /Middleware/api/profectus/status/fip HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json;charset=utf-8\r\n' +
+      'EmailAddress: mayowa@dipolediamond.com\r\n' +
+      'RequestType: Profectus - FIP Transfer Status\r\n' +
+      'LogCaseType: Not Available\r\n' +
+      'FIPType: INWARD\r\n' +
+      'IpAddress: 10.163.10.10\r\n' +
+      'MacAddress: 00:0d:3a:2c:98:ad\r\n' +
+      'User-Agent: axios/0.19.2\r\n' +
+      'Content-Length: 208\r\n' +
+      'Host: chatbotmiddleware.firstbanknigeria.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    insecureHTTPParser: undefined,
+    path: '/Middleware/api/profectus/status/fip',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 208,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      emailaddress: [Array],
+      requesttype: [Array],
+      logcasetype: [Array],
+      fiptype: [Array],
+      ipaddress: [Array],
+      macaddress: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      host: [Array]
+    }
+  },
+  data: {
+    code: '99',
+    message: 'Please provide a valid Amount',
+    otherMessage: null
+  }
+}
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token 00
+User is isTeamLead
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Profectus data {
+  Activity: 'profectus',
+  ProfectusType: 'profectus_FIP',
+  profectus_fip_type: 'INWARD',
+  profectus_fip_sessionid: '033011121024103436003000889176',
+  profectus_fip_amount: '1000',
+  profectus_fip_account_num: '',
+  profectus_fip_sendreceipt: 'false',
+  InitiatorEmail: 'mayowa@dipolediamond.com'
+}
+Profectus Type is:profectus_FIP
+Send Receipt is false
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    'transfer-encoding': 'chunked',
+    'content-type': 'application/json; charset=utf-8',
+    server: 'Microsoft-IIS/10.0',
+    'x-powered-by': 'ASP.NET',
+    date: 'Wed, 14 Oct 2020 10:36:00 GMT',
+    connection: 'close'
+  },
+  config: {
+    url: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+    method: 'post',
+    data: '{"Amount":"1000","AccountNumber":"","SessionId":"033011121024103436003000889176","RequestType":"Profectus - FIP Transfer Status","InitiatorEmail":"mayowa@dipolediamond.com","FIPType":"INWARD","SendReceipt":false}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      EmailAddress: 'mayowa@dipolediamond.com',
+      RequestType: 'Profectus - FIP Transfer Status',
+      LogCaseType: 'Not Available',
+      FIPType: 'INWARD',
+      IpAddress: '10.163.10.10',
+      MacAddress: '00:0d:3a:2c:98:ad',
+      'User-Agent': 'axios/0.19.2',
+      'Content-Length': 212
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    httpsAgent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    }
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 818,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 818,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /Middleware/api/profectus/status/fip HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json;charset=utf-8\r\n' +
+      'EmailAddress: mayowa@dipolediamond.com\r\n' +
+      'RequestType: Profectus - FIP Transfer Status\r\n' +
+      'LogCaseType: Not Available\r\n' +
+      'FIPType: INWARD\r\n' +
+      'IpAddress: 10.163.10.10\r\n' +
+      'MacAddress: 00:0d:3a:2c:98:ad\r\n' +
+      'User-Agent: axios/0.19.2\r\n' +
+      'Content-Length: 212\r\n' +
+      'Host: chatbotmiddleware.firstbanknigeria.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    insecureHTTPParser: undefined,
+    path: '/Middleware/api/profectus/status/fip',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 212,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      emailaddress: [Array],
+      requesttype: [Array],
+      logcasetype: [Array],
+      fiptype: [Array],
+      ipaddress: [Array],
+      macaddress: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      host: [Array]
+    }
+  },
+  data: {
+    code: '00',
+    message: '{"ReceiptSent":false,"TransactionDetails":[{"Amount":"2550.00","TransactionDate":"10/24/2012 10:36:16 AM","Narration":"NIP:7:033/UBALUA ELIZABETH/TPM NIBBS TES","SessionID":"033011121024103436003000889176","Status":"Pending","BeneficiaryAccount":"2007164426","BeneficiaryName":"ADEKUNLE TEMITOPE SULIAT","BeneficiaryBankName":"FirstBank","BeneficiaryBankCode":"011","OriginatorNumber":null,"OriginatorName":"UBALUA ELIZABETH"}],"RequestId":"20201014113600066","ResponseCode":"00","ResponseMessage":"Successful"}',
+    otherMessage: null
+  }
+}
+{"ReceiptSent":false,"TransactionDetails":[{"Amount":"2550.00","TransactionDate":"10/24/2012 10:36:16 AM","Narration":"NIP:7:033/UBALUA ELIZABETH/TPM NIBBS TES","SessionID":"033011121024103436003000889176","Status":"Pending","BeneficiaryAccount":"2007164426","BeneficiaryName":"ADEKUNLE TEMITOPE SULIAT","BeneficiaryBankName":"FirstBank","BeneficiaryBankCode":"011","OriginatorNumber":null,"OriginatorName":"UBALUA ELIZABETH"}],"RequestId":"20201014113600066","ResponseCode":"00","ResponseMessage":"Successful"}
+Response is_attachement
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token 00
+User is isTeamLead
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Profectus data {
+  Activity: 'profectus',
+  ProfectusType: 'profectus_FIP',
+  profectus_fip_type: 'OUTWARD',
+  profectus_fip_sessionid: '011057121114154734000000000177',
+  profectus_fip_amount: '1.0',
+  profectus_fip_transdate: '2012-11-14',
+  profectus_fip_account_num: '2013108207',
+  profectus_fip_sendreceipt: 'false',
+  InitiatorEmail: 'mayowa@dipolediamond.com'
+}
+Profectus Type is:profectus_FIP
+Send Receipt is false
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    'transfer-encoding': 'chunked',
+    'content-type': 'application/json; charset=utf-8',
+    server: 'Microsoft-IIS/10.0',
+    'x-powered-by': 'ASP.NET',
+    date: 'Wed, 14 Oct 2020 10:37:04 GMT',
+    connection: 'close'
+  },
+  config: {
+    url: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+    method: 'post',
+    data: '{"Amount":"1.0","AccountNumber":"2013108207","TransactionDate":"2012-11-14","SessionId":"011057121114154734000000000177","RequestType":"Profectus - FIP Transfer Status","InitiatorEmail":"mayowa@dipolediamond.com","FIPType":"OUTWARD","SendReceipt":false}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      EmailAddress: 'mayowa@dipolediamond.com',
+      RequestType: 'Profectus - FIP Transfer Status',
+      LogCaseType: 'Not Available',
+      FIPType: 'OUTWARD',
+      IpAddress: '10.163.10.10',
+      MacAddress: '00:0d:3a:2c:98:ad',
+      'User-Agent': 'axios/0.19.2',
+      'Content-Length': 253
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    httpsAgent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    }
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 1095,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 1095,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /Middleware/api/profectus/status/fip HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json;charset=utf-8\r\n' +
+      'EmailAddress: mayowa@dipolediamond.com\r\n' +
+      'RequestType: Profectus - FIP Transfer Status\r\n' +
+      'LogCaseType: Not Available\r\n' +
+      'FIPType: OUTWARD\r\n' +
+      'IpAddress: 10.163.10.10\r\n' +
+      'MacAddress: 00:0d:3a:2c:98:ad\r\n' +
+      'User-Agent: axios/0.19.2\r\n' +
+      'Content-Length: 253\r\n' +
+      'Host: chatbotmiddleware.firstbanknigeria.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    insecureHTTPParser: undefined,
+    path: '/Middleware/api/profectus/status/fip',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 253,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      emailaddress: [Array],
+      requesttype: [Array],
+      logcasetype: [Array],
+      fiptype: [Array],
+      ipaddress: [Array],
+      macaddress: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      host: [Array]
+    }
+  },
+  data: {
+    code: '00',
+    message: '{"ReceiptSent":false,"TransactionDetails":[{"Amount":"1.00","TransactionDate":"11/14/2012 9:49:43 AM","Narration":"PLEASE HELP","SessionID":"011011121114094943000000000173","Status":"Pending","BeneficiaryAccount":"2019770231","BeneficiaryName":"AYODELE AYODEJI FISAYO","BeneficiaryBankName":"First Bank Nigeria Plc","BeneficiaryBankCode":"011","OriginatorNumber":null,"OriginatorName":"MMERIFE UGOCHUKWU EMMANUEL"},{"Amount":"1.00","TransactionDate":"11/14/2012 9:50:43 AM","Narration":"PLEASE HELP","SessionID":"011011121114095042000000000175","Status":"Pending","BeneficiaryAccount":"2019770231","BeneficiaryName":"AYODELE AYODEJI FISAYO","BeneficiaryBankName":"First Bank Nigeria Plc","BeneficiaryBankCode":"011","OriginatorNumber":null,"OriginatorName":"MMERIFE UGOCHUKWU EMMANUEL"},{"Amount":"1.00","TransactionDate":"11/14/2012 3:47:34 PM","Narration":"PLEASE HELP","SessionID":"011057121114154734000000000177","Status":"Pending","BeneficiaryAccount":"1020069275","BeneficiaryName":"AYODELE AYODEJI FISAYO","BeneficiaryBankName":"Zenith International Bank Plc","BeneficiaryBankCode":"057","OriginatorNumber":null,"OriginatorName":"MMERIFE UGOCHUKWU EMMANUEL"}],"RequestId":"20201014113703946","ResponseCode":"00","ResponseMessage":"Successful"}',
+    otherMessage: null
+  }
+}
+{"ReceiptSent":false,"TransactionDetails":[{"Amount":"1.00","TransactionDate":"11/14/2012 9:49:43 AM","Narration":"PLEASE HELP","SessionID":"011011121114094943000000000173","Status":"Pending","BeneficiaryAccount":"2019770231","BeneficiaryName":"AYODELE AYODEJI FISAYO","BeneficiaryBankName":"First Bank Nigeria Plc","BeneficiaryBankCode":"011","OriginatorNumber":null,"OriginatorName":"MMERIFE UGOCHUKWU EMMANUEL"},{"Amount":"1.00","TransactionDate":"11/14/2012 9:50:43 AM","Narration":"PLEASE HELP","SessionID":"011011121114095042000000000175","Status":"Pending","BeneficiaryAccount":"2019770231","BeneficiaryName":"AYODELE AYODEJI FISAYO","BeneficiaryBankName":"First Bank Nigeria Plc","BeneficiaryBankCode":"011","OriginatorNumber":null,"OriginatorName":"MMERIFE UGOCHUKWU EMMANUEL"},{"Amount":"1.00","TransactionDate":"11/14/2012 3:47:34 PM","Narration":"PLEASE HELP","SessionID":"011057121114154734000000000177","Status":"Pending","BeneficiaryAccount":"1020069275","BeneficiaryName":"AYODELE AYODEJI FISAYO","BeneficiaryBankName":"Zenith International Bank Plc","BeneficiaryBankCode":"057","OriginatorNumber":null,"OriginatorName":"MMERIFE UGOCHUKWU EMMANUEL"}],"RequestId":"20201014113703946","ResponseCode":"00","ResponseMessage":"Successful"}
+Response is_attachement
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token 00
+User is isTeamLead
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Profectus data {
+  Activity: 'profectus',
+  ProfectusType: 'profectus_FIP',
+  profectus_fip_type: 'OUTWARD',
+  profectus_fip_sessionid: '011057121114154734000000000177',
+  profectus_fip_amount: '-10',
+  profectus_fip_transdate: '2012-11-14',
+  profectus_fip_account_num: '2013108207',
+  profectus_fip_sendreceipt: 'true',
+  InitiatorEmail: 'mayowa@dipolediamond.com'
+}
+Profectus Type is:profectus_FIP
+Send Receipt is true
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    'transfer-encoding': 'chunked',
+    'content-type': 'application/json; charset=utf-8',
+    server: 'Microsoft-IIS/10.0',
+    'x-powered-by': 'ASP.NET',
+    date: 'Wed, 14 Oct 2020 10:37:52 GMT',
+    connection: 'close'
+  },
+  config: {
+    url: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+    method: 'post',
+    data: '{"Amount":"-10","AccountNumber":"2013108207","TransactionDate":"2012-11-14","SessionId":"011057121114154734000000000177","RequestType":"Profectus - FIP Transfer Status","InitiatorEmail":"mayowa@dipolediamond.com","FIPType":"OUTWARD","SendReceipt":true}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      EmailAddress: 'mayowa@dipolediamond.com',
+      RequestType: 'Profectus - FIP Transfer Status',
+      LogCaseType: 'Not Available',
+      FIPType: 'OUTWARD',
+      IpAddress: '10.163.10.10',
+      MacAddress: '00:0d:3a:2c:98:ad',
+      'User-Agent': 'axios/0.19.2',
+      'Content-Length': 252
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    httpsAgent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    }
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 1376,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 1376,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /Middleware/api/profectus/status/fip HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json;charset=utf-8\r\n' +
+      'EmailAddress: mayowa@dipolediamond.com\r\n' +
+      'RequestType: Profectus - FIP Transfer Status\r\n' +
+      'LogCaseType: Not Available\r\n' +
+      'FIPType: OUTWARD\r\n' +
+      'IpAddress: 10.163.10.10\r\n' +
+      'MacAddress: 00:0d:3a:2c:98:ad\r\n' +
+      'User-Agent: axios/0.19.2\r\n' +
+      'Content-Length: 252\r\n' +
+      'Host: chatbotmiddleware.firstbanknigeria.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    insecureHTTPParser: undefined,
+    path: '/Middleware/api/profectus/status/fip',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 252,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      emailaddress: [Array],
+      requesttype: [Array],
+      logcasetype: [Array],
+      fiptype: [Array],
+      ipaddress: [Array],
+      macaddress: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      host: [Array]
+    }
+  },
+  data: {
+    code: '99',
+    message: 'Please provide a valid Amount',
+    otherMessage: null
+  }
+}
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token 00
+User is isTeamLead
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Profectus data {
+  Activity: 'profectus',
+  ProfectusType: 'profectus_FIP',
+  profectus_fip_type: 'REVERSAL',
+  profectus_fip_sessionid: '',
+  profectus_fip_amount: '1000',
+  profectus_fip_account_num: '3028753390',
+  profectus_fip_startdate: '2020-09-04',
+  profectus_fip_enddate: '2020-09-04',
+  profectus_fip_sendreceipt: 'false',
+  InitiatorEmail: 'mayowa@dipolediamond.com'
+}
+Profectus Type is:profectus_FIP
+Send Receipt is false
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    'transfer-encoding': 'chunked',
+    'content-type': 'application/json; charset=utf-8',
+    server: 'Microsoft-IIS/10.0',
+    'x-powered-by': 'ASP.NET',
+    date: 'Wed, 14 Oct 2020 10:39:29 GMT',
+    connection: 'close'
+  },
+  config: {
+    url: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+    method: 'post',
+    data: '{"Amount":"1000","AccountNumber":"3028753390","SessionId":"","RequestType":"Profectus - FIP Transfer Status","InitiatorEmail":"mayowa@dipolediamond.com","FIPType":"REVERSAL","SendReceipt":false,"StartDate":"2020-09-04","EndDate":"2020-09-04"}',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json;charset=utf-8',
+      EmailAddress: 'mayowa@dipolediamond.com',
+      RequestType: 'Profectus - FIP Transfer Status',
+      LogCaseType: 'Not Available',
+      FIPType: 'REVERSAL',
+      IpAddress: '10.163.10.10',
+      MacAddress: '00:0d:3a:2c:98:ad',
+      'User-Agent': 'axios/0.19.2',
+      'Content-Length': 242
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    httpsAgent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    }
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 1674,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: true,
+      _SNICallback: null,
+      servername: 'chatbotmiddleware.firstbanknigeria.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'chatbotmiddleware.firstbanknigeria.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: false,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(asyncId)]: 1674,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /Middleware/api/profectus/status/fip HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json;charset=utf-8\r\n' +
+      'EmailAddress: mayowa@dipolediamond.com\r\n' +
+      'RequestType: Profectus - FIP Transfer Status\r\n' +
+      'LogCaseType: Not Available\r\n' +
+      'FIPType: REVERSAL\r\n' +
+      'IpAddress: 10.163.10.10\r\n' +
+      'MacAddress: 00:0d:3a:2c:98:ad\r\n' +
+      'User-Agent: axios/0.19.2\r\n' +
+      'Content-Length: 242\r\n' +
+      'Host: chatbotmiddleware.firstbanknigeria.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    insecureHTTPParser: undefined,
+    path: '/Middleware/api/profectus/status/fip',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 242,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://chatbotmiddleware.firstbanknigeria.com/Middleware/api/profectus/status/fip',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      emailaddress: [Array],
+      requesttype: [Array],
+      logcasetype: [Array],
+      fiptype: [Array],
+      ipaddress: [Array],
+      macaddress: [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      host: [Array]
+    }
+  },
+  data: {
+    code: '00',
+    message: '{"ReversedTransactions":[{"TransactionId":"     M123","TransactionDate":"9/4/2020 12:00:00 AM","Amount":"1000","Narration":"REV:FIP CHARGES","ValueDate":"9/4/2020 12:00:00 AM","Reference":null,"TransactionRemarks":null,"SolId":"239"}],"Status":"Funds reversed successfully","RequestId":"20201014113923854","ResponseCode":"00","ResponseMessage":"Successful"}',
+    otherMessage: null
+  }
+}
+{"ReversedTransactions":[{"TransactionId":"     M123","TransactionDate":"9/4/2020 12:00:00 AM","Amount":"1000","Narration":"REV:FIP CHARGES","ValueDate":"9/4/2020 12:00:00 AM","Reference":null,"TransactionRemarks":null,"SolId":"239"}],"Status":"Funds reversed successfully","RequestId":"20201014113923854","ResponseCode":"00","ResponseMessage":"Successful"}
+Response is_attachement
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token 00
+User is isTeamLead

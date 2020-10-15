@@ -1,0 +1,94 @@
+http://169.254.0.1:0000
+
+restify listening to http://undefined:undefined 
+
+Get Bot Framework Emulator: https://aka.ms/botframework-emulator
+
+To talk to your bot, open the emulator select "Open Bot"
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token undefined
+User is undefined
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token undefined
+User is undefined
+https://chatbotmiddleware.firstbanknigeria.com/Middleware/
+Token Res { code: '00', message: 'Success', otherMessage: 'isTeamLead' }
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+{"CustomerId":"235029573","AccountNumber":"2028840604","AccountName":"AKINREMI AKINRINOLA KENNETH","AccountType":"CURRENT","ProductCode":"CA202","Product":"CURRENT A/C - STAFF","AccountStatus":"A","FreezeCode":" ","CurrencyCode":"NGN","BranchCode":"230","Branch":"MARINA BRANCH","BookBalance":328740.28,"AvailableBalance":328740.28,"Liens":0,"UnclearedBalance":0.0,"MobileNo":"2348034775945","Email":"akin.akinremi@gmail.com","Address":"9, KOLA REWIRE STREET OFF AILEGUN ROAD EGBE,ROAD EJIGBO, ILE EPO BUS STOP, EJIGBO,","DateOfBirth":"1980-09-26T00:00:00Z","RelationshipManagerId":"SN025991","RequestId":"20201013191458777","ResponseCode":"00","ResponseMessage":"Successful","LastNTransactions":"[{\"Amount\":2.5,\"TransactionType\":\"D\",\"Currency\":\"NGN\",\"TransactionDate\":\"2019-10-16T00:00:00Z\",\"Remarks\":\"VAT On AUG-2019 VISA Monthly Card Maintenance Fee\"},{\"Amount\":50.0,\"TransactionType\":\"D\",\"Currency\":\"NGN\",\"TransactionDate\":\"2019-10-16T00:00:00Z\",\"Remarks\":\"AUG-2019 VISA Monthly Card Maintenance Fee\"},{\"Amount\":200.0,\"TransactionType\":\"D\",\"Currency\":\"NGN\",\"TransactionDate\":\"2019-07-22T00:00:00Z\",\"Remarks\":\"QS894:101300001882451091/2347083909032\"},{\"Amount\":6900.0,\"TransactionType\":\"D\",\"Currency\":\"NGN\",\"TransactionDate\":\"2019-07-22T00:00:00Z\",\"Remarks\":\"BAP:CD/FM-140455110387108515-F63/DSTV/Co\"},{\"Amount\":20000.0,\"TransactionType\":\"D\",\"Currency\":\"NGN\",\"TransactionDate\":\"2019-07-22T00:00:00Z\",\"Remarks\":\"ATM WITHDRAWAL-ACCESS BANK00000000000/LAGOS STATE,\"}]"}
+[
+  {
+    Amount: 2.5,
+    TransactionType: 'D',
+    Currency: 'NGN',
+    TransactionDate: '2019-10-16T00:00:00Z',
+    Remarks: 'VAT On AUG-2019 VISA Monthly Card Maintenance Fee'
+  },
+  {
+    Amount: 50,
+    TransactionType: 'D',
+    Currency: 'NGN',
+    TransactionDate: '2019-10-16T00:00:00Z',
+    Remarks: 'AUG-2019 VISA Monthly Card Maintenance Fee'
+  },
+  {
+    Amount: 200,
+    TransactionType: 'D',
+    Currency: 'NGN',
+    TransactionDate: '2019-07-22T00:00:00Z',
+    Remarks: 'QS894:101300001882451091/2347083909032'
+  },
+  {
+    Amount: 6900,
+    TransactionType: 'D',
+    Currency: 'NGN',
+    TransactionDate: '2019-07-22T00:00:00Z',
+    Remarks: 'BAP:CD/FM-140455110387108515-F63/DSTV/Co'
+  },
+  {
+    Amount: 20000,
+    TransactionType: 'D',
+    Currency: 'NGN',
+    TransactionDate: '2019-07-22T00:00:00Z',
+    Remarks: 'ATM WITHDRAWAL-ACCESS BANK00000000000/LAGOS STATE,'
+  }
+]
+Response is_attachement

@@ -1,0 +1,1625 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+  "actions": [
+   
+    {
+      "type": "Action.ShowCard",
+      "title": "Account Enquiry",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "Container",
+           "items": [
+              {
+                "type": "TextBlock",
+                "text": "Account Enquiry",
+                "id": "Title",
+                "horizontalAlignment": "Center",
+                "size": "Large",
+                "weight": "Bolder",
+                "color": "Accent"
+              }
+            ]
+          },
+          {
+            "type": "Container",
+            "separator": true,
+            "spacing": "Large",
+            "items": [
+                 
+          {
+            "type": "TextBlock",
+            "text": "Kindly Specify your request type and fill the associated fields"
+          },
+          {
+            "type": "Input.ChoiceSet",
+            "id": "account_enquiry_type",
+            "placeholder": "Select account enquiry type",
+            "style": "compact",
+            "isMultiSelect": false,
+            "choices": [
+              {
+                "title": "Account BVN",
+                "value": "account_bvn"
+                
+              },
+              {
+                "title": " Account KYC/Update",
+                "value": "account_update"
+              },
+              {
+                "title": "Account Lien",
+                "value": "account_lien"
+              },
+              {
+                "title": "Account Status",
+                "value": "account_status"
+              },
+              {
+                "title": "Balance Enquiry",
+                "value": "balance_enquiry"
+              },
+                    
+              {
+                "title": "Confirm Freeze Status",
+                "value": "account_freeze"
+              },
+              {
+                "title": "Reversal Check",
+                "value": "reversal_check"
+              }
+            ]
+          },
+
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Account Number"
+                  },
+                  {
+                    "type": "Input.Text",
+                     "id": "Enq_AccountNumber",
+                    "placeholder": "Please enter account number",
+                    "maxLength": 10
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Amount"
+                  },
+                  {
+                    "type": "Input.Text",
+                    "id": "Enq_Amount",
+                    "placeholder": "Please enter an amount"
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Start Date"
+                  },
+                  {
+                    "type": "Input.Date",
+                    "id": "Enq_StartDate",
+                    "placeholder": "Please select start date"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "End Date"
+                  },
+                  {
+                    "type": "Input.Date",
+                    "id": "Enq_EndDate",
+                    "placeholder": "Please select end date"
+                  }
+                ]
+              }
+            ]
+          }
+            ]
+          }
+     
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Proceed",
+            "data": {
+              "Activity": "AcctEnquiry"
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Action.ShowCard",
+      "title": "Digital Loan",
+      "card": {
+        "type": "AdaptiveCard",
+          "body": [
+
+            {
+              "type": "Container",
+             "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Digital Loan",
+                    "id": "Title",
+                    "horizontalAlignment": "Center",
+                    "size": "Large",
+                    "weight": "Bolder",
+                    "color": "Accent"
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "separator": true,
+              "spacing": "Large",
+             "items": [
+              {
+                "type": "TextBlock",
+                "text": "Account Number"
+              },
+              {
+                "type": "Input.Text",
+                "id": "firstdvance_acc_number",
+                "required": true,
+                "placeholder": "Please enter Account Number",
+                "maxLength":10,
+                "inlineAction": {
+                  "type": "Action.Submit",
+                  "title": "Proceed",
+                  "data": {
+                    "Activity": "digitalLoan"
+                  }
+                }
+              }
+              ]
+            }
+          ]           
+      }
+    },
+
+    {
+      "type": "Action.ShowCard",
+      "title": "Entrust",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "Container",
+           "items": [
+              {
+                  "type": "TextBlock",
+                  "text": "Entrust",
+                  "id": "Title",
+                  "horizontalAlignment": "Center",
+                  "size": "Large",
+                  "weight": "Bolder",
+                  "color": "Accent"
+              }
+            ]
+          },
+          {
+            "type": "Container",
+            "separator": true,
+            "spacing": "Large",
+           "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Kindly Specify your request type and fill the associated fields"
+                },
+                {
+                  "type": "Input.ChoiceSet",
+                  "id": "entrust_type",
+                  "placeholder": "Select entrust type",
+                  "style": "compact",
+                  "isMultiSelect": false,
+                  "choices": [
+                    {
+                      "title": "Status Enquiry",
+                      "value": "status_enquiry"
+                    },
+                    {
+                      "title": "Unlock",
+                      "value": "unlock_account"
+                    },
+                    {
+                      "title": "Block",
+                      "value": "block_account"
+                    }
+                  ]
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "User ID"
+                        },
+                        {
+                          "type": "Input.Text",
+                          "id": "en_user_id",
+                          "placeholder": "Please enter user ID"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Serial number"
+                        },
+                        {
+                          "type": "Input.Text",
+                          "id": "en_serial_number",
+                          "placeholder": "Please enter serial number"
+                        }
+                      ]
+                    }
+                  ]
+                }
+            ]
+          }
+          
+
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Proceed",
+            "data": {
+              "Activity": "entrust"
+            }
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+      }
+    },
+
+    {
+      "type": "Action.ShowCard",
+      "title": "E-Statement",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+
+          {
+            "type": "Container",
+           "items": [
+              {
+                  "type": "TextBlock",
+                  "text": "Send Statement",
+                  "id": "Title",
+                  "horizontalAlignment": "Center",
+                  "size": "Large",
+                  "weight": "Bolder",
+                  "color": "Accent"
+              }
+            ]
+          },
+          {
+            "type": "Container",
+            "separator": true,
+            "spacing": "Large",
+           "items": [
+            {
+              "type": "TextBlock",
+              "text": "Customer's account number"
+            },
+            {
+              "type": "Input.Text",
+              "id": "AccountNumber",
+              "required": true,
+              "placeholder": "Customer's account number",
+              "maxLength":10             
+            },
+            {
+              "type": "TextBlock",
+              "text": "E-statement From:"
+            },
+            {
+              "type": "Input.Date",
+              "id": "StartDate",
+              "required": true,
+              "placeholder": "Start Date"
+            },
+            {
+              "type": "TextBlock",
+              "text": "E-statement To:"
+            },
+            {
+              "type": "Input.Date",
+              "required": true,
+              "id": "EndDate",
+              "placeholder": "End Date"
+            }
+           ]
+          }
+         
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Send Statement",
+            "data": {
+              "Activity": "e_statement_request"
+            }
+          }
+        ]
+      }
+    },
+   
+    {
+      "type": "Action.ShowCard",
+      "title": "Log Case",
+      "card": {
+        "type": "AdaptiveCard",
+        "actions": [
+
+          {
+            "type": "Action.ShowCard",
+            "title": "Bills Payment",
+            "card": {
+              "type": "AdaptiveCard",
+              "body": [
+
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Log Case - Bills Payment",
+                      "id": "bills_Title",
+                      "spacing": "Medium",
+                      "horizontalAlignment": "Center",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Accent"
+                   } 
+                  ]
+               },
+              {
+                  "type": "Container",
+                  "separator": true,
+                  "spacing": "Large",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Channel"
+                            },
+                            {
+                              "type": "Input.ChoiceSet",
+                              "id": "billcase_channel",
+                              "placeholder": "Select Channel",
+                              "style": "compact",
+                              "isMultiSelect": false,
+                              "choices": [
+                                {
+                                  "title": "Mobile Banking/FirstMobile",
+                                  "value": "FirstMobile"
+                                },
+                                {
+                                  "title": "FirstMonie",
+                                  "value": "FirstMonie"
+                                },
+                                {
+                                  "title": "Online Banking",
+                                  "value": "OnlineBanking"
+                                },
+                                {
+                                  "title": "USSD",
+                                  "value": "USSD"
+                                },
+                                {
+                                  "title": "QR/MVisa",
+                                  "value": "QR/MVisa"
+                                },
+                                {
+                                  "title": "Quickteller",
+                                  "value": "Quickteller"
+                                },
+                                {
+                                  "title": "WhatsAppBanking",
+                                  "value": "WhatsAppBanking"
+                                }
+            
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "Account number"
+                          },
+                          {
+                            "type": "Input.Text",
+                            "id": "billcase_acc_number",
+                            "maxLength":10,
+                            "placeholder": "Please enter account number"
+                          }
+                          ]
+                        }
+                      ]
+                    },
+    
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction amount"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "billcase_trans_amount",
+                              "required": true,
+                              "placeholder": "Please enter transaction amount"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction date"
+                            },
+                            {
+                              "type": "Input.Date",
+                              "id": "billcase_trans_date",
+                              "required": true,
+                              "placeholder": "Please enter transaction date"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Transaction Count"
+                    },
+                    {
+                      "type": "Input.Text",
+                      "id": "billcase_trans_count",
+                      "placeholder": "Please enter transaction count"
+                    },
+    
+                    {
+                      "type": "TextBlock",
+                      "text": "Description"
+                    },
+                    {
+                      "type": "Input.Text",
+                      "id": "billcase_description",
+                      "isMultiline":true,
+                      "maxLength": 1000,
+                      "wrap": true,
+                      "placeholder": "Please enter description"
+                    }
+                  ]
+              }
+               
+              ],
+
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Proceed",
+                  "data": {
+                    "Activity": "LogCRM",
+                    "LogCRMType": "bill_payment"
+                  }
+                }
+              ]
+            }
+          },
+
+          {
+            "type": "Action.ShowCard",
+            "title": "Dispense Error",
+            "card": {
+              "type": "AdaptiveCard",
+              "body": [
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Log Case - Dispense Error",
+                      "id": "dispenseErr_Title",
+                      "spacing": "Medium",
+                      "horizontalAlignment": "Center",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Accent"
+                    } 
+                  ]
+                },
+               
+                {
+                    "type": "Container",
+                    "separator": true,
+                    "spacing": "Large",
+                    "items": [
+                     
+                      {
+                        "type": "ColumnSet",
+                        "bleed": true,
+                        "spacing": "Padding",
+                        "columns": [
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Account number"
+                              },
+                              {
+                                "type": "Input.Text",
+                                "id": "dispenseerr_acc_number",
+                                "maxLength":10,
+                                "placeholder": "Please enter account number"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Channel"
+                              },
+              
+                              {
+                                "type": "Input.ChoiceSet",
+                                "id": "dispenseerr_channel_type",
+                                "placeholder": "Please select Channel ",
+                                "style": "compact",
+                                "isMultiSelect": false,
+                                "choices": [
+                                
+                                  {
+                                    "title": "ATM On Us",
+                                    "value": "ATM OnUs"
+                                  },
+                                  {
+                                    "title": "ATM Remote On Us",
+                                    "value": "ATM RemoteOnUs"
+                                  },
+                                  {
+                                    "title": "POS/Web",
+                                    "value": "POS/Web"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+      
+                      {
+                        "type": "ColumnSet",
+                        "bleed": true,
+                        "spacing": "Padding",
+                        "columns": [
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Card Variant"
+                              },
+              
+                              {
+                                "type": "Input.ChoiceSet",
+                                "id": "dispenseerr_card_variant",
+                                "placeholder": "Please select card variant ",
+                                "style": "compact",
+                                "isMultiSelect": false,
+              
+                                "choices": [
+                                  {
+                                    "title": "Verve Card",
+                                    "value": "Verve Card"
+                                  },
+                                  {
+                                    "title": "Naira Mastercard",
+                                    "value": "Naira Mastercard"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Transaction date"
+                              },
+                              {
+                                "type": "Input.Date",
+                                "id": "dispenseerr_trans_date",
+                                "required": true,
+                                "placeholder": "Please enter transaction date"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      
+                      {
+                        "type": "ColumnSet",
+                        "bleed": true,
+                        "spacing": "Padding",
+                        "columns": [
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Card Pan - First Six Digits"
+                              },
+              
+                              {
+                                "type": "Input.Text",
+                                "id": "dispenseerr_cardpan_first_six",
+                                "maxLength":6,
+                                "placeholder": "Card Pan - First Six Digits"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Card Pan - Last Four Digits"
+                              },
+              
+                              {
+                                "type": "Input.Text",
+                                "id": "dispenseerr_cardpan_last_four",
+                                "maxLength":4,
+                                "placeholder": "Card Pan - Last Four Digits"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+
+                      {
+                        "type": "ColumnSet",
+                        "columns": [
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Transaction Amount"
+                              },
+                              {
+                                "type": "Input.Text",
+                                "id": "dispenseerr_trans_amount",
+                                "required": true,
+                                "placeholder": "Please enter transaction amount"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Transaction Count"
+                              },
+                              {
+                                "type": "Input.Text",
+                                "id": "dispenseerr_trans_count",
+                                "placeholder": "Please enter transaction count"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+
+                      {
+                        "type": "TextBlock",
+                        "text": "Description"
+                      },
+                      {
+                        "type": "Input.Text",
+                        "id": "dispenseerr_description",
+                        "isMultiline":true,
+                        "maxLength": 1000,
+                        "required": true,
+                        "wrap":true,
+                        "placeholder": "Please enter description"
+                      }
+                        ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Proceed",
+                  "data": {
+                    "LogCRMType": "dispense_error",
+                    "Activity": "LogCRM"
+                  }
+                }
+              ]
+            }
+          },
+
+          {
+            "type": "Action.ShowCard",
+            "title": "Top Up",
+            "card": {
+              "type": "AdaptiveCard",
+              "body": [
+                
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Log Case - Top Up",
+                      "id": "topup_Title",
+                      "spacing": "Medium",
+                      "horizontalAlignment": "Center",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Accent"
+                   } 
+                  ]
+               },
+              {
+                  "type": "Container",
+                  "separator": true,
+                  "spacing": "Large",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Channel"
+                            },
+                            {
+                              "type": "Input.ChoiceSet",
+                              "id": "topup_case_channel_type",
+                              "placeholder": "Please select channel ",
+                              "style": "compact",
+                              "isMultiSelect": false,
+                              "choices": [
+                                {
+                                  "title": "FirstOnline/OnlineBanking",
+                                  "value": "OnlineBanking"
+                                },
+                                {
+                                  "title": "USSD",
+                                  "value": "USSD"
+                                },
+                                {
+                                  "title": "FirstMobile",
+                                  "value": "FirstMobile"
+                                },
+                                {
+                                  "title": "FirstMonie",
+                                  "value": "FirstMonie"
+                                },
+                                {
+                                  "title": "WhatsAppBanking",
+                                  "value": "WhatsAppBanking"
+                                },
+                                {
+                                  "title": "Quickteller",
+                                  "value": "Quickteller"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Account number"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "topupcase_acc_number",
+                              "maxLength":10,
+                              "placeholder": "Please enter Account number"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+    
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Phone number"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "topupcase_phone",
+                              "required": true,
+                              "maxLength": 11,
+                              "placeholder": "Please enter Phone number"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction Amount"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "topupcase_trans_amount",
+                              "required": true,
+                              "placeholder": "Please enter transaction amount"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction Count"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "topupcase_trans_count",
+                              "placeholder": "Please enter transaction count"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction Date"
+                            },
+                            {
+                              "type": "Input.Date",
+                              "id": "topupcase_trans_date",
+                              "required": true,
+                              "placeholder": "Please select transaction date"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Description"
+                    },
+                    {
+                      "type": "Input.Text",
+                      "id": "topupcase_description",
+                      "isMultiline":true,
+                      "maxLength": 1000,
+                      "wrap":true,
+                      "required": true,
+                      "placeholder": "Please enter description"
+                    }
+                  ]
+              }
+
+              ],
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Proceed",
+                  "data": {
+                    "Activity": "LogCRM",
+                    "LogCRMType": "top_up"
+                  }
+                }
+              ]
+            }
+          },
+
+          {
+            "type": "Action.ShowCard",
+            "title": "Case Status",
+            "card": {
+              "type": "AdaptiveCard",
+              "body": [
+                {
+                  "type": "Container",
+                  "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Check Case Status",
+                        "id": "casestatus_Title",
+                        "spacing": "Medium",
+                        "horizontalAlignment": "Center",
+                        "size": "Medium",
+                        "weight": "Bolder",
+                        "color": "Accent"
+                      } 
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "separator": true,
+                    "spacing": "Large",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Tracking Number"
+                      },
+                
+                      {
+                        "type": "Input.Text",
+                        "id": "case_tracking_number",
+                        "placeholder": "Please enter Tracking number",
+                        "inlineAction":    {
+                          "type": "Action.Submit",
+                          "title": "Proceed",
+                          "data": {
+                            "Activity": "LogCRM",
+                            "LogCRMType": "case_status"
+                          }
+                        }
+                      }
+                    ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Action.ShowCard",
+      "title": "Profectus",
+      "card": {
+        "type": "AdaptiveCard",
+        "actions": [
+          {
+            "type": "Action.ShowCard",
+            "title": "Bill Payment",
+            "card": {
+              "type": "AdaptiveCard",
+              "body": [
+
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Profectus -Bills Payment",
+                      "id": "profectusBillsPayment_Title",
+                      "spacing": "Medium",
+                      "horizontalAlignment": "Center",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Accent"
+                   } 
+                  ]
+                },
+                  
+                {
+                  "type": "Container",
+                  "separator": true,
+                  "spacing": "Large",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",					    
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Channel"
+                            },
+                            {
+                              "type": "Input.ChoiceSet",
+                              "id": "profectus_billpayment_channel",
+                              "placeholder": "Select Channel",
+                              "style": "compact",
+                              "isMultiSelect": false,
+                              "choices": [
+                                {
+                                  "title": "FirstOnline",
+                                  "value": "FirstOnline"
+                                },
+                                {
+                                  "title": "FirstMobile",
+                                  "value": "FirstMobile"
+                                },
+                                {
+                                  "title": "FirstMonie",
+                                  "value": "FirstMonie"
+                                },
+                                {
+                                  "title": "QR",
+                                  "value": "QR"
+                                },
+                                {
+                                  "title": "USSD",
+                                  "value": "USSD"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Account Number"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "profectus_billpaymt_accountnumber",
+                              "required": true,
+                              "placeholder": "Enter Account Number",
+                              "maxLength":10             
+
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction Date"
+                            },
+                            {
+                              "type": "Input.Date",
+                              "required": true,
+                              "id": "profectus_billpaymt_transdate",
+                              "placeholder": "Transaction Date"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction Amount"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "profectus_billpaymt_transamount",
+                              "required": true,
+                              "placeholder": "Enter Transaction Amount"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Proceed",
+                  "data": {
+                    "Activity": "profectus",
+                    "ProfectusType": "profectus_billPayment"
+                  }
+                }
+              ]
+            }
+          },
+          
+          {
+            "type": "Action.ShowCard",
+            "title": "FIP Status",
+            "card": {
+              "type": "AdaptiveCard",
+              "body": [
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Profectus - FIP Status",
+                      "id": "fip_Title",
+                      "spacing": "Medium",
+                      "horizontalAlignment": "Center",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Accent"
+                   } 
+                  ]
+                },
+                  
+                {
+                  "type": "Container",
+                  "separator": true,
+                  "spacing": "Large",
+                  "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Transaction Type"
+                      },
+                      {
+                        "type": "Input.ChoiceSet",
+                        "id": "profectus_fip_type",
+                        "placeholder": "Select Top Up Status Check Type",
+                        "style": "compact",
+                        "isMultiSelect": false,
+                        "choices": [
+                          {
+                            "title": "Inward FIP Transfer Status",
+                            "value": "INWARD"
+                          },
+
+                          {
+                            "title": "Outward FIP Transfer Status",
+                            "value": "OUTWARD"
+                          },
+                          {
+                            "title": "Check of Reversal FIP Charges",
+                            "value": "REVERSAL"
+                          }
+                        ]
+                      },
+
+                      {
+                        "type": "ColumnSet",
+                        "columns": [
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Session ID/STAN"
+                              },
+                              {
+                                "type": "Input.Text",
+                                "id": "profectus_fip_sessionid",
+                                "required": true,
+                                "placeholder": "Enter Session ID"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Transaction Amount"
+                              },
+                              {
+                                "type": "Input.Text",
+                                "id": "profectus_fip_amount",
+                                "required": true,
+                                "placeholder": "Enter Transaction Amount"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+
+                      {
+                        "type": "ColumnSet",
+                        "columns": [
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Transaction Date"
+                              },
+                              {
+                                "type": "Input.Date",
+                                "required": true,
+                                "id": "profectus_fip_transdate",
+                                "placeholder": "Select Transaction Date"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Account Number"
+                              },
+                              {
+                                "type": "Input.Text",
+                                "id": "profectus_fip_account_num",
+                                "required": true,
+                                "placeholder": "Enter Account Number"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+
+                      {
+                        "type": "ColumnSet",
+                        "columns": [
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Start Date"
+                              },
+                              {
+                                "type": "Input.Date",
+                                "required": true,
+                                "id": "profectus_fip_startdate",
+                                "placeholder": "Select Start Date"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "End Date"
+                              },
+                              {
+                                "type": "Input.Date",
+                                "required": true,
+                                "id": "profectus_fip_enddate",
+                                "placeholder": "Select End Date"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                     
+                      {
+                        "type": "Input.Toggle",
+                        "id": "profectus_fip_sendreceipt",
+                        "title": "Send Receipt",
+                        "value":"false",
+                        "valueOn": "true",
+                        "valueOff": "false"
+                      }
+                  ] 
+                }
+              ],
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Proceed",
+                  "data": {
+                    "Activity": "profectus",
+                    "ProfectusType": "profectus_FIP"
+                  }
+                }
+              ],
+              "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+            }
+          },
+
+          {
+            "type": "Action.ShowCard",
+            "title": "Top Up",
+            "card": {
+              "type": "AdaptiveCard",
+              "body": [
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Profectus - Top Up",
+                      "id": "profectusTopUp_Title",
+                      "spacing": "Medium",
+                      "horizontalAlignment": "Center",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Accent"
+                   } 
+                  ]
+                },
+                  
+                {
+                  "type": "Container",
+                  "separator": true,
+                  "spacing": "Large",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                      
+                          "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Channel"
+                              },
+                              {
+                                "type": "Input.ChoiceSet",
+                                "id": "profectus_topup_channel",
+                                "placeholder": "Select Top Up Channel",
+                                "style": "compact",
+                                "isMultiSelect": false,
+                                "choices": [
+                                  {
+                                    "title": "FirstOnline",
+                                    "value": "FirstOnline"
+                                  },
+                                  {
+                                    "title": "FirstMobile",
+                                    "value": "FirstMobile"
+                                  },
+                                  {
+                                    "title": "FirstMonie",
+                                    "value": "FirstMonie"
+                                  },
+                                  {
+                                    "title": "USSD",
+                                    "value": "USSD"
+                                  }
+                                ]
+                              }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                        
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Account Number"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "profectus_topup_accountnumber",
+                              "required": true,
+                              "placeholder": "Enter Account Number",
+                              "maxLength":10             
+
+                            }
+                          ]
+                        }
+                      ]
+                    },
+
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction Date"
+                            },
+                            {
+                              "type": "Input.Date",
+                              "required": true,
+                              "id": "profectus_topup_transdate",
+                              "placeholder": "Select Transaction Date"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Transaction Amount"
+                            },
+                            {
+                              "type": "Input.Text",
+                              "id": "profectus_topup_transactionamount",
+                              "required": true,
+                              "placeholder": "Enter Transaction Amount"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              
+              ],
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Proceed",
+                  "data": {
+                    "Activity": "profectus",
+                    "ProfectusType": "profectus_TopUp"
+                  }
+                }
+              ]
+            }
+          },
+
+          {
+            "type": "Action.ShowCard",
+            "title": "SMTM",
+            "card": {
+              "type": "AdaptiveCard",
+              "body": [
+                {
+                  "type": "Container",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Profectus -SMTM",
+                      "id": "profectus_SMTM",
+                      "spacing": "Medium",
+                      "horizontalAlignment": "Center",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Accent"
+                   } 
+                  ]
+                },
+                  
+                {
+                  "type": "Container",
+                  "separator": true,
+                  "spacing": "Large",
+                  "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Account Number"
+                      },
+                      {
+                        "type": "Input.Text",
+                        "id": "profectus_smtm_accountnumber",
+                        "maxLength":10,
+                        "placeholder": "Enter Account Number"
+                      },
+                      {
+                        "type": "ColumnSet",
+                        "columns": [
+                          {
+                            "type": "Column",      
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Transaction Date"
+                              },
+                              {
+                                "type": "Input.Date",
+                                "id": "profectus_smtm_transdate",
+                                "placeholder": "Transaction Date"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "TextBlock",
+                                "text": "Transaction Amount"
+                              },
+                              {
+                                "type": "Input.Text",
+                                "id": "profectus_smtm_transamount",
+                                "placeholder": "Enter Transaction Amount"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Proceed",
+                  "data": {
+                    "Activity": "profectus",
+                    "ProfectusType": "profectus_smtm"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+
+   
+
+  ],
+
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "color":"accent",
+      "weight": "bolder",
+      "text": "FBN Contact Center Chatbot - Test"
+    },
+    {
+      "type": "TextBlock",
+      "color":"accent",
+      "text": "Here are what I can help you with.",
+      "wrap": true
+    }
+   
+  ],
+  "type": "AdaptiveCard",
+  "version": "1.2"
+}

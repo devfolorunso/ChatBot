@@ -1,0 +1,23 @@
+http://169.254.0.1:0000
+
+restify listening to http://undefined:undefined 
+
+Get Bot Framework Emulator: https://aka.ms/botframework-emulator
+
+To talk to your bot, open the emulator select "Open Bot"
+Restart --  Running dialog with Message Activity.
+[
+  {
+    id: '29:1RxSZ-lAbd-CxyGQtT19NOQzZaRyDabmmRI5luGVXm8YLcQ41lwapl0LTZx7QZgW_AAi0in7fXiQ8hcTZCa2deQ',
+    name: 'Mayowa Afe-Ogundele',
+    objectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d',
+    email: 'mayowa@dipolediamond.com',
+    userPrincipalName: 'mayowa@dipolediamond.com',
+    tenantId: '531bd87d-ba6a-4a4e-bed2-25ed0330a84d',
+    userRole: 'user',
+    aadObjectId: 'ef13d839-db96-4e03-80b5-08f7ab0fcc1d'
+  }
+]
+ef13d839-db96-4e03-80b5-08f7ab0fcc1d
+Has token undefined
+User is undefined

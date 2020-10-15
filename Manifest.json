@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "52abdc43-22d4-4a0f-bb1c-23304c5e7acc",
+  "packageName": "com.dipolediamond.devapp",
+  "developer": {
+    "name": "dipoleDIAMOND",
+    "websiteUrl": "https://www.dipolediamond.com",
+    "privacyUrl": "https://www.dipolediamond.com",
+    "termsOfUseUrl": "https://www.dipolediamond.com"
+  },
+
+  "name": {
+    "short": "FBN CC Bot - TEST",
+    "full": "FB Contact Center Bot - TEST"
+  },
+  "description": {
+    "short": "This is the Contact Centre digital assistant",
+    "full": "This bots prevents Contact Centre user from logging into different applications in order to increase efficiency"
+  },
+  "icons": {
+    "color": "fb.png",
+    "outline": "fb.png"
+  },
+  "accentColor": "#FFFFFF",
+
+  "bots": [
+    {
+      "botId": "52abdc43-22d4-4a0f-bb1c-23304c5e7acc",
+      "scopes": ["team", "personal", "groupchat"],
+      "supportsFiles": true
+    }
+  ],
+
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": []
+}
